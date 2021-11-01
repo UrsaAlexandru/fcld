@@ -1,0 +1,9 @@
+mainprogram(){
+defINT 1a, a2;
+1a = 3;
+a2 = 2"3;
+defINT sum;
+sum = 0;
+sum = 1a + a2;
+output(sum);
+}

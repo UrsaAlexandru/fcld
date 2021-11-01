@@ -1,0 +1,14 @@
+mainprogram(){
+
+defINT[] array = [12, 2, 34, 4, 75, 6, 7, 812, 9, 10];
+
+defINT sum;
+
+sum = 0;
+
+for(defINT i = 0; i < 10; i= i+1)
+    sum = sum + array[i];
+
+output(sum);
+
+}
