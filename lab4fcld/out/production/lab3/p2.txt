@@ -1,0 +1,19 @@
+mainprogram(){
+defINT a, b, c, maximum;
+defSTRING message;
+input(a);
+input(b);
+input(c);
+maximum = a;
+message = "first number is the biggest number";
+if(b > maximum){
+maximum = b;
+message = "second number is the biggest number";
+}
+if(c > maximum){
+maximum = c;
+message = "third number is the biggest number";
+}
+output(message);
+output(maximum);
+}

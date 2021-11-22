@@ -1,0 +1,14 @@
+FiniteAutomata is a class which contains 6 fields: states; inputs; initialState; finalStates; transitions; isDeterministic;
+In my runMenu method i have 6 cases, where i print the states, inputs, initial state, final state, transitions and check
+if a sequence is valid for my fa.
+transitions is a Map with key = Pair<String, String> and value=List<String>. We check if the fa is deterministic when we read
+the transitions from the file, if the pair we want to add already exist we change isDeterministic to false;
+
+states = word{space word}
+inputs = word{space word}
+initialState = word
+finalStates = word{space word}
+transitions = {word space word space word}
+word = char{char}
+char = "a" | "b" | ... "z" | "A" | "B" | ... | "Z" | "0" | "1" | ... | "9" | "+" | "-"
+space = " "

@@ -1,0 +1,15 @@
+mainprogram(){
+    defINT a, b, maximum;
+    b = 7;
+    a = -3;
+    input(a);
+    input(b);
+    maximum = 0;
+    if(a != b && a % 2 == 0){
+        maximum = a;
+    }
+    else{
+        maximum = b;
+    }
+    output(maximum);
+}
